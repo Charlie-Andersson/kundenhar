@@ -9,16 +9,18 @@
 
 header {
     grid-area: hd;
-    background: pink;
+    background: grey;
     height: 10vh;
+    color: white;
 }
 main {
     grid-area: mn;
-    background: lightblue;
+    background: #FFD700;
     height:80vh
 }
 footer {
     grid-area: ft;
-    background: lightgreen;
+    background: grey;
     height: 10vh;
+    color: white;
 }
