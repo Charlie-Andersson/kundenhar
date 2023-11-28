@@ -1,0 +1,24 @@
+#container {
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+    'hd hd hd hd'
+    'mn mn mn mn'
+    'ft ft ft ft';
+}
+
+header {
+    grid-area: hd;
+    background: pink;
+    height: 10vh;
+}
+main {
+    grid-area: mn;
+    background: lightblue;
+    height:80vh
+}
+footer {
+    grid-area: ft;
+    background: lightgreen;
+    height: 10vh;
+}
