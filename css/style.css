@@ -12,6 +12,8 @@ header {
     background: grey;
     height: 10vh;
     color: white;
+    text-align: center;
+    
 }
 main {
     grid-area: mn;
@@ -24,3 +26,8 @@ footer {
     height: 10vh;
     color: white;
 }
+.center {
+    padding: 1vh 0;
+    text-align: center;
+    word-spacing: 60px;
+  }
