@@ -1,0 +1,1 @@
+<img src="/img/cat_glas.png" alt="Cat glass" class="cat_glass"
