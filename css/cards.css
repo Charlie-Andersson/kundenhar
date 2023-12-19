@@ -1,0 +1,38 @@
+#container {
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+    'hd hd hd hd'
+    'mn mn mn mn'
+    'ft ft ft ft';
+}
+.center {
+    padding: 10px 0;
+    padding-right: 200px;
+    text-align: right;
+}
+.header_text {
+    padding: 10px 0;
+    padding-right: 200px;
+    text-align: right;
+    word-spacing: 60px;
+  }
+  header {
+    grid-area: hd;
+    background: grey;
+    height: 10vh;
+    color: white;
+    text-align: center;
+    
+}
+main {
+    grid-area: mn;
+    background: #FFD700;
+    height:80vh
+}
+footer {
+    grid-area: ft;
+    background: grey;
+    height: 10vh;
+    color: white;
+}
