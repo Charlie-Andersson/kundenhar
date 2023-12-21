@@ -1,3 +1,4 @@
+
 #container {
     display: grid;
     height: 100vh;
@@ -23,7 +24,7 @@
     height: 10vh;
     color: white;
     text-align: center;
-    
+    border: 1px solid #000000;
 }
 main {
     grid-area: mn;
@@ -35,4 +36,37 @@ footer {
     background: grey;
     height: 10vh;
     color: white;
+    border: 1px solid #000000;
 }
+
+
+ .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 40px;
+    height: 664px;
+    width: 1500px;
+ }
+  
+ .card {
+     flex: 0 1 20%;
+     height: auto;
+     width: auto;
+     border: 1px solid #000000;
+     background-color: orange;
+     text-align: center;
+ }
+ 
+ .logga {
+    text-align: left;
+    position: absolute;
+    top: 1.7%;
+    left: 15%;
+    font-size: 1.5rem;
+    font-weight: bold;
+ }

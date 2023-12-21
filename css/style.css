@@ -24,7 +24,7 @@ header {
     height: 10vh;
     color: white;
     text-align: center;
-    
+    border: 1px solid #000000;
 }
 main {
     grid-area: mn;
@@ -36,6 +36,7 @@ footer {
     background: grey;
     height: 10vh;
     color: white;
+    border: 1px solid #000000;
 }
 .header_text {
     padding: 10px 0;
@@ -110,4 +111,13 @@ body{
   top: 47%;
   left: 25%;
   transform: translate(-50%, -50%);
+}
+
+.logga {
+  text-align: left;
+  position: absolute;
+  top: 1.7%;
+  left: 15%;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
